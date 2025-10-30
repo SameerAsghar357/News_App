@@ -122,51 +122,11 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.white,
       ),
       body:
-          // color: Colors.amber,
           ListView(
             children: [
-              // ScrollConfiguration(
-              //   behavior: const MaterialScrollBehavior().copyWith(
-              //     dragDevices: {PointerDeviceKind.touch, PointerDeviceKind.mouse},
-              //   ),
-              //   child: HeadLinesWidget(),
-              // ),
-              // ScrollConfiguration(
-              //   behavior: const MaterialScrollBehavior().copyWith(
-              //     dragDevices: {PointerDeviceKind.touch, PointerDeviceKind.mouse},
-              //   ),
-              //   child: IndependentNews(),
-              // ),
               HeadLinesWidget(),
               // SizedBox(height: 10),
               IndependentNews(isScrollable: false),
-              // Container(
-              //   child: ListView.builder(
-              //     itemCount: 5,
-              //     itemBuilder: (context, index) {
-              //       return Container(
-              //         height: height * 0.1,
-              //         width: width * 0.1,
-              //         decoration: BoxDecoration(
-              //           color: Colors.blue,
-              //           borderRadius: BorderRadius.circular(10),
-              //         ),
-              //       );
-              //     },
-              //   ),
-              // ),
-              // Padding(
-              //   padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 10),
-              // child:
-              // Container(
-              //   height: height * 1,
-              //   width: width * 1,
-              //   decoration: BoxDecoration(
-              //     color: Colors.blue,
-              //     // borderRadius: BorderRadius.circular(10),
-              //   ),
-              // ),
-              // ),
             ],
           ),
     );
